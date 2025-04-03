@@ -1,0 +1,11 @@
+###
+POST localhost:9002/orders
+Content-Type: application/json
+
+{
+    "isbn": "1234567891",
+    "quantity": 3
+}
+
+###
+GET localhost:9002/orders
